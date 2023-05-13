@@ -24,6 +24,7 @@ public class StringUtil {
      * <p>
      * Then return a String in a formatted way.
      */
+
     public static String fixFormat(String str) {
         String fixed = str.trim();
         fixed = str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
@@ -90,6 +91,13 @@ public class StringUtil {
 
         }
         return unique;
+    }
+}
+
+
+
+    public static String fixFormat (String str) { // jAMES -- >  J.toUpperCase() | AMES.toLowerCase();
+        return (str.charAt(0)+"").toUpperCase() + str.substring(1).toLowerCase();
     }
 }
 
