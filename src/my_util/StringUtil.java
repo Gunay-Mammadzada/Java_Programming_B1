@@ -96,9 +96,5 @@ public class StringUtil {
 
 
 
-    public static String fixFormat (String str) { // jAMES -- >  J.toUpperCase() | AMES.toLowerCase();
-        return (str.charAt(0)+"").toUpperCase() + str.substring(1).toLowerCase();
-    }
-}
 
 
